@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Mobile App Structure",
+    "slug": "CbxxMobileAppStructure",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/CodeboxxLogo.png",
+    "scheme": "cbxxmobileappstructure",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/CodeboxxLogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/CodeboxxFavicon.png"
+    },
+    "plugins": [
+  "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/CodeboxxLogo.png",
+          "favicon": "./assets/images/CodeboxxFavicon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
